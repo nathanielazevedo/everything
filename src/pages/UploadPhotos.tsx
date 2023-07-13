@@ -10,8 +10,8 @@ const S3_BUCKET = 's3-photos-upload'
 const REGION = 'us-west-1'
 
 AWS.config.update({
-  accessKeyId: process.env.AKEY,
-  secretAccessKey: process.env.ACCESS,
+  accessKeyId: 'f',
+  secretAccessKey: 'f',
   signatureVersion: 'v4',
 })
 
